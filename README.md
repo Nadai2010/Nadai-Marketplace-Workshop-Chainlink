@@ -3,14 +3,21 @@
 This is a complete NFT Marketplace with scripts, tests and deploys. Built with Solidity using Hardhat.
 
 Info Hardhat
+
 https://hardhat.org/tutorial
 
 Info Workshop
+
 Chainlink Workshop | Crea tu propio Marketplace de NFTs con Solidity - Parte 1
+
 https://www.youtube.com/watch?v=hXd3YipSwGQ
+
 Chainlink Workshop | Crea tu propio Marketplace de NFTs con Solidity - Parte 2
+
 https://www.youtube.com/watch?v=n8Y-9pHFCcA
+
 Chainlink Workshop | Crea tu propio Marketplace de NFTs con Solidity - Parte 3
+
 https://www.youtube.com/watch?v=4r3UNdBRonI
 
 
