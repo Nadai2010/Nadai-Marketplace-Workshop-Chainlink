@@ -2,15 +2,26 @@
 
 This is a complete NFT Marketplace with scripts, tests and deploys. Built with Solidity using Hardhat.
 
-# Setting Up
+Info Hardhat
+https://hardhat.org/tutorial
 
+Info Workshop
+Chainlink Workshop | Crea tu propio Marketplace de NFTs con Solidity - Parte 1
+https://www.youtube.com/watch?v=hXd3YipSwGQ
+Chainlink Workshop | Crea tu propio Marketplace de NFTs con Solidity - Parte 2
+https://www.youtube.com/watch?v=n8Y-9pHFCcA
+Chainlink Workshop | Crea tu propio Marketplace de NFTs con Solidity - Parte 3
+https://www.youtube.com/watch?v=4r3UNdBRonI
+
+
+# Setting Up
 
 1. Clone the repository
 
 2. Install dependencies
 
 ```bash
-$ cd workshop-chainlink
+$ cd Marketplace
 $ npm install
 ```
 3. Boot up local development blockchain
@@ -19,7 +30,7 @@ $ npm install
 $ npx hardhat node
 ```
 
-Note: you must have a separate terminal running your node with hardhat in order to deploy.
+Note IMPORTANT: you must have a separate terminal running your node with hardhat in order to deploy.
 
 4. Connect development blockchain accounts to MetaMask
 
@@ -38,6 +49,3 @@ $ npx hardhat run src/backend/scripts/deploy.js --network localhost
 $ npx hardhat test
 ```
 
-# Contribution
-
-- Create a new branch and open an PR!!
