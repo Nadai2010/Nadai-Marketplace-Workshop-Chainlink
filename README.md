@@ -1,7 +1,21 @@
-# Nadai-Marketplace-Workshop-Chainlink
+ <h4>Nadai Marketplace Workshop Chainlink.</h4>
+
+</div>
+
+---
+## Tabla de contenido <!-- omit in toc -->
+- [Nadai-Marketplace-Workshop-Chainlink](#nadai-marketplace-workshop-chainlink)
+- [Acerca de este repositorio ](#acerca-de-este-repositorio)
+- [Configuración](#configuración)
+- [Configuración y Deploy en red pruebas GOERLI](#configuración-y-deploy-en-red-pruebas-goerli)
+  - [Modificaciones .ENV](#modificaciones-env)
+  - [Modificaciones en Hardhat config](#modificaciones-en-hardhat-config)
+  - [Deploy y Verificación en goerli](#deploy-y-verificación-en-goerli)
+
+## Nadai-Marketplace-Workshop-Chainlink
 Nadai MarketPlace
 
-# Acerca de este repositorio 
+## Acerca de este repositorio 
 Este es un NFT Marketplace completo con scripts, pruebas e implementaciones. Construido con Solidity usando Hardhat.
 
 Info Hardhat
@@ -17,8 +31,7 @@ Chainlink Workshop | Crea tu propio Marketplace de NFTs con Solidity - Parte 2
 Chainlink Workshop | Crea tu propio Marketplace de NFTs con Solidity - Parte 3
 -https://www.youtube.com/watch?v=4r3UNdBRonI
 
-
-# Configuración
+## Configuración
 
 1. Clonar repositorio.
 
@@ -52,7 +65,7 @@ $ npx hardhat run src/backend/scripts/deploy.js --network localhost
 ```bash
 $ npx hardhat test
 ```
-# Configuración y Deploy en red pruebas GOERLI
+## Configuración y Deploy en red pruebas GOERLI
 
 En esta parte del tutorial haremos el deploy y verificación del Smart con Hardhat en testnet GOERLI, con tu RPC de ALCHEMY y tu API KEY de ETHERSCHAN. Enlaces directos aqui                                                                                                                
 -https://etherscan.io/myapikey                                                                                                     
@@ -66,7 +79,7 @@ GOERLI_RPC_URL="RPC creada en alchemy o otra RPC como la Standar de Goerli Ifura
 PRIVATE_KEY="Clave privada de la cuenta de Metamask que vayas hacer el deploy"
 ETHERSCAN_API_KEY="Api Key creada en Etherscan para verificación del Smart"
 ```
-### Modificaciones en Hardhat.config
+### Modificaciones en Hardhat config
 Necesitamos añadir librerias en el hardhah.config que instalremos con los comandos.
 ```bash
 sudo npm install --save-dev @openzeppelin/hardhat-upgrades
